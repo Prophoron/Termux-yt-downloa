@@ -74,7 +74,7 @@ cp -i config "${CONFIG_FOLDER}/config"
 sleep 1
 
 # Install the url opener.
-printf "${BLUE}Installing Termux-YTD${RESET}\n"
+printf "${BLUE}Installing loa${RESET}\n"
 sleep 2
 mkdir -p "${TERMUX_HOME}/bin"
 cp -f termux-url-opener "${TERMUX_HOME}/bin/termux-url-opener"
