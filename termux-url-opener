@@ -57,6 +57,7 @@ case $option in #Make Case list
 	;;
         2)
 	yt-dlp -f "best[height<=144]" $1
+        ;;
 	3)
 	yt-dlp -f "best[height<=360]" $1
 	;;
